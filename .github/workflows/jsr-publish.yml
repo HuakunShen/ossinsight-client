@@ -18,4 +18,6 @@ jobs:
         with:
           bun-version: latest
       - name: Publish package
-        run: bunx jsr publish
+        run: |
+          bun install  
+          bunx jsr publish
