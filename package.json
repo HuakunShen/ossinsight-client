@@ -1,0 +1,29 @@
+{
+  "name": "ossinsight-client",
+  "type": "module",
+  "scripts": {
+    "build": "bun src/gen-schema.ts",
+    "postbuild": "bun run build:docs",
+    "build:docs": "typedoc"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "openapi-typescript": "^7.4.4",
+    "openapi-zod-client": "^1.18.2",
+    "typedoc": "^0.27.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@hey-api/client-fetch": "^0.5.7",
+    "@zodios/core": "^10.9.6",
+    "openapi-fetch": "^0.13.3",
+    "zod": "^3.24.1"
+  },
+  "exports": {
+    "./heyapi": "./src/heyapi/index.ts",
+    "./zod-client": "./src/zod-client.ts",
+    ".": "./src/index.ts"
+  }
+}
