@@ -1,6 +1,7 @@
 {
   "name": "ossinsight-client",
   "type": "module",
+  "version": "0.1.0",
   "scripts": {
     "build": "bun src/gen-schema.ts",
     "postbuild": "bun run build:docs",
@@ -25,5 +26,8 @@
     "./heyapi": "./src/heyapi/index.ts",
     "./zod-client": "./src/zod-client.ts",
     ".": "./src/index.ts"
-  }
+  },
+  "files": [
+    "./src"
+  ]
 }

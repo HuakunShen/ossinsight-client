@@ -1,7 +1,14 @@
 # ossinsight-client
 
+![NPM Version](https://img.shields.io/npm/v/ossinsight-client)
+![JSR Version](https://img.shields.io/jsr/v/hk/ossinsight-client)
+
+https://huakunshen.github.io/ossinsight-client/
+
 > A simple OSSInsight TypeScript SDK generated from the official public API openapi schema. https://raw.githubusercontent.com/pingcap/ossinsight/refs/heads/main/configs/public_api/openapi.yaml
 > You can generate a client in any language with their schema, this package was created to facilitate my own projects.
+
+Official API documentation at https://ossinsight.io/docs/api
 
 It provides client sdk of 3 styles in subpackages
 
