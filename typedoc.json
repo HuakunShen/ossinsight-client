@@ -1,9 +1,10 @@
 {
-    "$schema": "https://typedoc.org/schema.json",
-    "entryPoints": [
-        "./src/index.ts",
-        "./src/zod-client.ts",
-        "./src/heyapi/index.ts"
-    ],
-    "out": "docs"
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": [
+    "./src/index.ts",
+    "./src/zod-client.ts",
+    "./src/heyapi/index.ts"
+  ],
+  "out": "docs",
+  "exclude": ["**/examples/**/*"]
 }

@@ -43,9 +43,13 @@ It provides client sdk of 3 styles in subpackages
    - `ossinsight-client/heyapi`
 
      ```ts
-     import { createApiClient } from "ossinsight-client/zod-client";
-
-     const client = createApiClient("https://api.ossinsight.io/v1");
-     const trendingRepos = await client.get("/trends/repos/");
-     expect(trendingRepos.data.result.code).toBe(200);
+     import { client, listTrendingRepos } from "ossinsight-client/heyapi";
+     client.setConfig({
+       baseUrl: "https://api.ossinsight.io/v1",
+     });
+     const rustTrendingRepos = await listTrendingRepos({
+       query: {
+         language: "Rust",
+       },
+     });
      ```
