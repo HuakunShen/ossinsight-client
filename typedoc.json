@@ -5,6 +5,5 @@
     "./src/zod-client.ts",
     "./src/heyapi/index.ts"
   ],
-  "out": "docs",
-  "exclude": ["**/examples/**/*"]
+  "out": "docs"
 }
