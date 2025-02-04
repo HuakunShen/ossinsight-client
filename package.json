@@ -1,7 +1,10 @@
 {
   "name": "ossinsight-client",
   "type": "module",
-  "repository": "https://github.com/HuakunShen/ossinsight-client",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuakunShen/ossinsight-client.git"
+  },
   "version": "0.1.2",
   "scripts": {
     "build": "bun src/gen-schema.ts",
