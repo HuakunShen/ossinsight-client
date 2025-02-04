@@ -1,7 +1,7 @@
 # ossinsight-client
 
-![NPM Version](https://img.shields.io/npm/v/ossinsight-client)
-![JSR Version](https://img.shields.io/jsr/v/hk/ossinsight-client)
+[![NPM Version](https://img.shields.io/npm/v/ossinsight-client)](https://www.npmjs.com/package/ossinsight-client)
+[![JSR Version](https://jsr.io/badges/@hk/ossinsight-client)](https://jsr.io/@hk/ossinsight-client)
 
 https://huakunshen.github.io/ossinsight-client/
 
