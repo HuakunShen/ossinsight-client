@@ -1,6 +1,7 @@
 {
   "name": "ossinsight-client",
   "type": "module",
+  "repository": "https://github.com/HuakunShen/ossinsight-client",
   "version": "0.1.2",
   "scripts": {
     "build": "bun src/gen-schema.ts",
@@ -9,7 +10,7 @@
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "openapi-typescript": "^7.4.4",
+    "openapi-typescript": "^7.6.1",
     "openapi-zod-client": "^1.18.2",
     "typedoc": "^0.27.6"
   },
@@ -20,7 +21,7 @@
     "@hey-api/client-fetch": "^0.8.0",
     "@hey-api/openapi-ts": "^0.64.1",
     "@zodios/core": "^10.9.6",
-    "openapi-fetch": "^0.13.3",
+    "openapi-fetch": "^0.13.4",
     "zod": "^3.24.1"
   },
   "exports": {
