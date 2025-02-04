@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { client, listTrendingRepos } from "../heyapi";
+import { listTrendingRepos, client } from "../heyapi";
 
 test("api", async () => {
   client.setConfig({
