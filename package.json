@@ -1,6 +1,8 @@
 {
   "name": "ossinsight-client",
   "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HuakunShen/ossinsight-client.git"
